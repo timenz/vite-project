@@ -1,0 +1,11 @@
+{
+  "name": "vite-mono",
+  "version": "0.0.0",
+  "scripts": {
+    "l:i": "lerna bootstrap --hoist",
+    "dev": "lerna exec --scope=@test/main -- npm run dev"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
